@@ -1,2 +1,3 @@
-# casstet
-Code for Cassiope tetragona project
+# C. tetragona as a dendro-ecological proxy 
+
+This is a folder for my code, raw data and scripts that I used in my MSc Thesis, and any resulting publications. 
