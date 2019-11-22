@@ -114,8 +114,6 @@ fviz_pca_ind(res.pca, geom.ind = "point", col.ind = chrono2$country,
             
              legend.title = "Groups"
 )
-install.packages("viridis")
-library(viridis)
 
 chronoC$country <- factor(chronoC$country, levels = c("Ellesmere",  "Svalbard","Alaska","Greenland","Northern Scandinavia"))
 fviz_pca_biplot(res.pca, 
@@ -133,8 +131,6 @@ fviz_pca_biplot(res.pca,
              legend.title = list(fill = "Location", color = "Contrib",
                                    alpha = "Contrib")
 )
-
-pal <- viridisLite::magma(5)
 
 ind.p <- fviz_pca_biplot(res.pca, geom = "point", col.ind = chrono2$country)
 ggpubr::ggpar(ind.p,
